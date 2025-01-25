@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+form{
+   width:50%;
+   border: 2px solid blue;
+   
+}
+
+h1{
+    text-align: center;
+    font-size: 4rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+p{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+label{
+    font-size: 19px;
+    display: inline;
+}
+input{
+    display: inline;
+    margin:0 8px;
+    
+}
+
+.option{
+    padding: 10px ;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+.divbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.button{
+    margin:10px;
+    height: 40px;
+    width:20%;
+    padding:2px
+}
+.result{
+    font-size: 19px;
+}
